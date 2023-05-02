@@ -38,23 +38,15 @@ const validator = {
     }
   },
   
+
   
   maskify:function (cardNumber) {
     
-    const digitosmascara = cardNumber.slice(0, -4).replace(/./g, "#") + cardNumber.slice(-4);
-    //alert("numero enmascarado" + digitosmascara);     
+    const digitosmascara = cardNumber.slice(0, -4).replace(/./g, "#") + cardNumber.slice(-4); 
     return digitosmascara
-
-    //alert (digitosmascara)
-    //alert (ultimos4digitos)
-
-    //cardNumber = digitosmascara + ultimos4digitos;
-    //
-    
-    
   }
-    
-}
+  
+};
 
 
 export default validator;

@@ -1,6 +1,81 @@
 # Tarjeta de crédito válida
 
+###PROYECTO CARD VALIDATION##
+
+1-En este proyecto, la idea fue la creación de una interfaz de compra de boletos para conciertos en el AUDITORIO NACIONAL DE LA CDMX. 
+
+
+2-Producto orientado a publico en general que cumplan con la mayoria de edad para realizar compras en linea de conciertos que se presentan en el auditorio Nacional.
+
+3-EL objetivo es que el comprador ingrese su nombre y numero de tarjeta con la que desea realizar su compra , de esta forma podria avanzar al siguiente paso para obtener sus boletos y disfrutar de su artista favorito.
+
+4- pensando en hacer una interfaz amigable que sea especifica y simple, para facilitar la navegacion y rapidez de respuesta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Índice
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)

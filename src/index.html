@@ -34,30 +34,29 @@
     <center>
       <div class="usuario">
         <label> Customer Name </label>
-       <br>
-      <br>
+        <br>
+        <br>
         <input type="text" id="customerName" name="customername" placeholder="ingresa tu nombre"/>
       </div>
+      <div>
+       <p id="leyendaNombre"></p>   
+      </div>  
 
-
-      <br>
-      <br>
       <br>
 
       <div class="numero de tarjeta">
         <label> Card Number </label>
         <br>
-        
         <br>
         <input type="text" id="cardNumber" name="card_number" placeholder="XXXX XXXX XXXX 5555" required minlength="4" maxlength="16"
           onkeypress="return(event.charCode>=48 && event.charCode<=57)"/>
-        <p id="leyenda tarjeta">  </p>
+        <p id="leyenda tarjeta"> </p>
         <br>
       </div>
       <br>
       <br>
       <div>
-          <button  id ="button" onClick="boton()"  > validate </button>
+          <button  id ="button" > click here </button>
       </div>
  
       
