@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+
+  <body class="body"> 
+     
+    <header>
+      
+      <h1>AUDITORIO NACIONAL DE LA CDMX</h1>
+
+      <br />
+      <h2>Para comprar tus boletos ingresa tus datos.</h2>
+    </header>
+    <br />
+    <aside>
+      <div class="imagen">
+        <img src="tarjeta.png" alt="imagen" />
+      </div>
+    </aside>
+
+    <br />
+    <br />
+    <main>
+      <center>
+        <div class="usuario">
+          <label> Customer Name </label>
+          <br />
+          <br />
+          <input
+            type="text"
+            id="customerName"
+            name="customername"
+            placeholder="ingresa tu nombre"
+          />
+        </div>
+        <br />
+        <div id="leyendaNombre">
+        </div>
+
+        <br />
+
+        <div class="numero de tarjeta">
+          <label> Card Number </label>
+          <br />
+          <br />
+          <input
+            type="text"
+            id="cardNumber"
+            name="card_number"
+            placeholder="XXXX XXXX XXXX 5555"
+            required
+            minlength="4"
+            maxlength="16"
+            onkeypress="return(event.charCode>=48 && event.charCode<=57)"
+          />
+          <div >
+            <p class="leyendat" id="leyenda tarjeta"></p>
+            <p class="leyendav" id="leyenda validar"></p>
+          </div>
+         
+          <br />
+        </div>
+        <br />
+        <br />
+        <div>
+          <button id="button">click here</button>
+        </div>
+      </center>
+    </main>
+
+    <footer>@compras seguras en linea</footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
